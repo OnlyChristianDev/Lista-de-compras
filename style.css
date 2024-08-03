@@ -55,9 +55,45 @@ button {
     align-items: center;
     justify-content: space-between;
     display: flex;
+    width: 540px;
+    margin-bottom: -1px;
 }
 .trash {
     margin-right: 15px;
     cursor: pointer;
 }
+.lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
+@media (max-width: 600px) {
+   .inputsandbuttons {
+    flex-direction: column;
+    width: 90vw;
+   }
+   button {
+    width: 365px
+   }
+   input {
+    width: 350px;
+   }
+   h1 {
+    font-size: 18px;
+   }
+   .produtos {
+    width: 365px;
+   }
+   .container {
+    width: 365px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+    .tittles {
+        margin-left: -180px;
+    }
+}
